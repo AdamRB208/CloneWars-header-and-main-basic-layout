@@ -1,7 +1,7 @@
 /*ANCHOR - class selectors */
 
 .bg-sucess-emphasis {
-  background-color: #6a9c81;
+  background-color: #098267;
 }
 
 .h1-buttons {
@@ -12,16 +12,19 @@
 }
 
 .card {
-  background-color: #6a9c81;
+  background-color: #098267;
 }
 
 .header-buttons {
   border: 0px;
-  background-color: #6a9c81;
+  background-color: #098267;
   color: white;
   margin: 0 5px 0 5px;
 }
 
+.card {
+  color: white;
+}
 
 /*ANCHOR - element selectors */
 
@@ -35,6 +38,6 @@ h2 {
   color: black;
 }
 
-.card {
-  color: white;
+ul b {
+  color: 098267;
 }

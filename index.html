@@ -29,14 +29,14 @@
       <div class="row">
         <div class="col">
           <div class="d-flex d-md-4 m-4">
-            <span class="mdi mdi-usb"></span>
+            <span class="mdi mdi-usb fs-5"></span>
             <div class="col d-flex justify-content-end">
-              <button class="header-buttons shadow-lg">Home</button>
-              <button class="header-buttons">About</button>
-              <button class="header-buttons">Services</button>
-              <button class="header-buttons">Portfolio</button>
-              <button class="header-buttons">Team</button>
-              <button class="header-buttons">Blog</button>
+              <button class="header-buttons col-1">Home</button>
+              <button class="header-buttons col-1">About</button>
+              <button class="header-buttons col-1">Services</button>
+              <button class="header-buttons col-1">Portfolio</button>
+              <button class="header-buttons col-1">Team</button>
+              <button class="header-buttons col-1">Blog</button>
             </div>
           </div>
         </div>
@@ -49,24 +49,28 @@
   <main>
     <section class="container-fluid bg-sucess-emphasis text-light">
       <div class="row">
-        <div class="col">
+        <div class="col-10 col-md-8">
           <h1>Welcome</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quaerat fuga totam molestiae. Porro
-            fugit quas nulla hic expedita dolorum!</p>
+          <p class="col-10 col-md-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quaerat fuga
+            totam
+            molestiae. Porro fugit quas nulla hic expedita dolorum!</p>
           <div class="m-3 p-5">
-            <button class="h1-buttons shadow-lg">button</button>
-            <button class="h1-buttons shadow-lg">button</button>
+            <button class="h1-buttons shadow-lg rounded-5 m-2 p-3">Get Started</button>
+            <button class="h1-buttons mdi mdi-play-circle-outline shadow-lg m-2 p-3">Watch Videos</button>
           </div>
         </div>
         <div class="col-12">
         </div>
       </div>
       <div class="row">
-        <div class="col-12 d-flex justify-content-space-around p-5 m-3">
-          <span class="card p-5">something</span>
-          <span class="card p-5">something</span>
-          <span class="card p-5">something</span>
-          <span class="card p-5">something</span>
+
+        <!-- NOTE  Unable to get these span items to fit within the mobile view, interested on how you would fix that :) -->
+
+        <div class="col-2 col-md-12 d-flex p-5 m-3 justify-content-space-around">
+          <span class="card fs-5 p-5 m-5 mdi mdi-television-classic">Lorem, ipsum.</span>
+          <span class="card fs-5 p-5 m-5 mdi mdi-diamond-stone">Lorem, ipsum dolor.</span>
+          <span class="card fs-5 p-5 m-5 mdi mdi-map-marker-outline">Lorem, ipsum.</span>
+          <span class="card fs-5 p-5 m-5 mdi mdi-vector-square">Lorem, ipsum.</span>
         </div>
       </div>
       <div class="row bg-light">
@@ -99,21 +103,39 @@
         <span class="bg-light col-6">
           <div class="p-5">
 
+            <!-- font size will adjust icons   use fs in icon class.-->
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt ex sed, ullam qui
               veritatis?
               Officiis eligendi tempore nisi nulla!</p>
-            <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit.</ul>
-            <ul>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos!</ul>
-            <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates accusantium aliquid sequi
+            <ul class="col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</ul>
+            <ul class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos!</ul>
+            <ul class="col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates accusantium
+              aliquid sequi
               quos provident, vel cupiditate id adipisci architecto!</ul>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est fuga aut excepturi nulla consectetur
               quisquam minus porro ducimus, perspiciatis ut? Numquam voluptatum suscipit ullam eaque, atque harum
               molestiae voluptates.</p>
             <img class="img-fluid mb-3 rounded-5"
-              src="https://images.unsplash.com/photo-1583321500900-82807e458f3c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1583321500900-82807e458f3c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="homework">
           </div>
         </span>
+        <span class="col-6">
+          <img class="col-6" style="width: 100%" src="online-collab2.png" alt="online collab image">
+        </span>
+        <span class="col-6 mt-5">
+          <ul><b class="fs-2 me-2">232</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt.</ul>
+          <ul class="mt-5"><b class="fs-2 me-2">521</b> Lorem ipsum dolor sit amet consectetur.</ul>
+          <ul class="mt-5"><b class="fs-2 me-2">453</b> Lorem ipsum dolor sit amet consectetur adipisicing.</ul>
+        </span>
+        </span>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col 12">
+
+        </div>
       </div>
     </section>
   </main>
